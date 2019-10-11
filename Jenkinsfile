@@ -14,7 +14,7 @@ pipeline {
           id
           docker -v
           python -V
-          sudo ansible --version
+          #ansible --version
           molecule --version
         '''
       }
